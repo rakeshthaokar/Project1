@@ -1,0 +1,82 @@
+
+*{
+    font-family: sans-serif;
+    color: black;
+}
+.nav1{
+    display: flex;
+    gap: 1rem;
+    
+}
+.nav2{
+    padding-left: 6rem;
+    display:flex;
+    justify-content: end;
+}
+.up{
+    padding: 10px;
+    display: flex;
+    font-size: 12px;
+    gap: 1.5rem;
+    
+}
+.up1{
+    padding: 10px;
+    display: flex;
+    font-size: 12px;
+    gap: 5px;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    width: 100%;
+    display: flex;
+    
+}
+.offnee{
+    font-size: 12px;
+    padding: 10px 0px;
+}
+.cart{
+    width: 23px;
+    padding: 0px 15px;
+}
+img{
+    max-width: 100%;
+}
+.health_care>div:hover{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.safe>a:hover{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.brands>a:hover{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.collagen>a:hover{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.personal_care>a:hover{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.login{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+}
+.signup{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+}
